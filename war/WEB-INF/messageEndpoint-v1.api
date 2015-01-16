@@ -1,13 +1,13 @@
 {
   "extends" : "thirdParty.api",
   "abstract" : false,
-  "root" : "https://myapp.appspot.com/_ah/api",
+  "root" : "https://electronica-unitec.appspot.com/_ah/api",
   "name" : "messageEndpoint",
   "version" : "v1",
   "defaultVersion" : false,
   "adapter" : {
-    "bns" : "https://myapp.appspot.com/_ah/spi",
-    "deadline" : 65.0,
+    "bns" : "https://electronica-unitec.appspot.com/_ah/spi",
+    "deadline" : 10.0,
     "type" : "lily"
   },
   "auth" : {
@@ -126,11 +126,11 @@
           "namespace" : {
             "type" : "string"
           },
-          "parent" : {
-            "$ref" : "Key"
-          },
           "complete" : {
             "type" : "boolean"
+          },
+          "parent" : {
+            "$ref" : "Key"
           }
         }
       }
