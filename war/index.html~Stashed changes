@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width"/>
+<title>Electronica Unitec</title>
+<!-- Included CSS Files-->
+<link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/homepage.css"><!-- homepage stylesheet -->
+<link rel="stylesheet" href="stylesheets/skins/teal.css"><!-- skin color -->
+<link rel="stylesheet" href="stylesheets/responsive.css">
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->    
+</head>
+<body>
+<!-- HIDDEN PANEL 
+================================================== -->
+<div id="panel">
+	<div class="row">
+		<div class="twelve columns">
+			<img src="images/info.png" class="pics" alt="info">
+			<div class="infotext">
+				Bienvenido a Electrónica Unitec "Reparaciones Garantizadas"
+			</div>
+		</div>
+	</div>
+</div>
+<p class="slide">
+	<a href="#" class="btn-slide"></a>
+</p>
+<!-- HEADER
+================================================== -->
+<div class="row">	
+		<div class="four columns">
+			<div class="logo">
+				<a href="index2.html"><h2>ELECTRONICA UNITEC</h2></a>
+
+	<h3>TEL 57979810</h3>
+		</div>
+		</div>
+		<div class="eight  columns noleftmarg">		
+			<nav id="nav-wrap">
+				<ul class="nav-bar sf-menu">
+				
+					<li class="current">
+					<a href="index.html">Inicio</a>
+						
+					</li>
+					<!-- 
+					<li>
+					<a href="#">Portofolio</a>
+						<ul>
+						<li><a href="portofolio2.html">2 Columns</a></li>
+						<li><a href="portofolio3.html">3 Columns</a></li>
+						<li><a href="portofolio4.html">4 Columns</a></li>						
+						<li><a href="portofoliodetail.html">Project Details</a></li>
+						</ul>
+					</li>
+					 
+					<li>
+					<a href="#">Blog</a>
+						<ul>
+						<li><a href="blogpage1.html">Blog page style 1</a></li>
+						<li><a href="blogpage2.html">Blog page style 2</a></li>
+						<li><a href="blogpage3.html">Blog page style 3</a></li>
+						<li><a href="blogsinglepost.html">Single post</a></li>
+						</ul>
+					</li>
+					
+					<li>
+					<a href="#">Pages</a>
+						<ul>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="services.html">Services</a></li>
+						
+						</ul>
+					</li>
+					
+					<li>
+					<a href="#">Features</a>
+						<ul>
+						<li><a href="columns.html">Columns</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="typography.html">Typography</a></li>
+						</ul>
+					</li>
+					-->
+					<li>
+					<a href="contact.html">Contacto</a>
+					</li>
+					
+				</ul>
+				</nav>
+		</div>	
+</div>
+<div class="clear">
+</div>
+<!-- SUBHEADER
+================================================== -->
+<div id="subheader" class="subheadertext">
+	<div class="row">
+		<div class="twelve columns">
+			<div class="noslide">
+				 <h1 >"Reparaciones Garantizadas "</h1>
+				<strong>
+				 <h1>DF y Estado de México</h1>
+				<h4>Con mas de 20 años de experiencia, nos ponemos a sus ordenes en la reparación de: </h4>
+				<h4>*Pantallas   LCD, PLASMA, LED </h4>
+				<h4>*Modulares </h4>
+				<h4>*Video Cámaras </h4>
+				<h4>*Computadoras </h4>
+				<h4>*Hornos de Microondas </h4>
+				<h4>-Reparaciones a Domicilio</h4>
+				</strong>
+				
+			<div class="minipause"></div><br/>
+			<a href="/contact.html" class="clear actbutton">LLAMANOS NOSOTROS VAMOS</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ANIMATED COLUMNS 
+================================================== -->
+<!--  
+<div class="row">
+	<div class="twelve columns">
+		<ul class="ca-menu">
+			<li>
+			<a href="#">
+			<img  align="center" src="http://placehold.it/140x140/222" alt="" width="120" height="120"/>
+			
+			<div class="ca-content">
+				<h2 class="ca-main">Responsive<br/> Design</h2>
+				<h3 class="ca-sub">Across all major devices</h3>
+			</div>
+			</a>
+			</li>
+			<li>
+			<a href="#">
+			<img  align="center" src="http://placehold.it/140x140/222" alt="" width="120" height="120"/>
+			<div class="ca-content">
+				<h2 class="ca-main">Friendly<br/> Documentation</h2>
+				<h3 class="ca-sub">Straight to the point</h3>
+			</div>
+			</a>
+			</li>
+			<li>
+			<a href="#">
+			<img  align="center" src="http://placehold.it/140x140/222" alt="" width="120" height="120"/>
+			<div class="ca-content">
+				<h2 class="ca-main">Alternate<br/> Home Pages</h2>
+				<h3 class="ca-sub">Full slider, boxed or none</h3>
+			</div>
+			</a>
+			</li>
+			<li>
+			<a href="#">
+			<img  align="center" src="http://placehold.it/140x140/222" alt="" width="100" height="100"/>
+			<div class="ca-content">
+				<h2 class="ca-main">Filterable<br/> Portofolio</h2>
+				<h3 class="ca-sub">Isotop & PrettyPhoto</h3>
+			</div>
+			</a>
+			</li>
+		</ul>
+	</div>
+</div>
+-->
+<!-- CONTENT 
+================================================== -->
+<div class="row">
+	<div class="twelve columns">
+		<div class="centersectiontitle">
+			<h4>Acerca de Electronica Unitec</h4>
+		</div>
+	</div>
+	<div class="four columns">
+		<h5>Nosotros</h5>
+		<p>
+			 -Somos un centro de servicio con mas de 20 años de experiencia, en la reparacion de equipo electrónico.
+			 </br>
+			 -Contamos con reparacion a domicilio
+			 </br>
+			 -Refacciones Originales
+			 </br>
+			 
+		</p>
+		<p>
+			
+		</p>
+	</div>
+	<div class="four columns">
+		<h5>Garantia</h5>
+		<p>
+			-Todas nuestras reparaciones tienen una garantia de 30 dias por escrito.
+			</br>
+			-Todas nuestras refacciones son originales
+		</p>
+		<p>
+			
+		</p>
+	</div>
+	<div class="four columns">
+		<h5>Contacto</h5>
+		<p>
+			Telefono de Contacto: 57-97-98-10
+			</br>
+			Tambien nos puedes enviar un correo : <a href="/contact.html">electronica.unitec123@gmail.com</a>
+		</p>
+		<p>
+			<a href="/contact.html" class="readmore">Contactar</a>
+		</p>
+	</div>
+</div>
+<div class="hr">
+</div>
+<!-- CLIENTS 
+================================================== -->
+<div class="row">
+	<div class="twelve columns">
+		<div class="centersectiontitle">
+			<h4>Marcas </h4>
+		</div>
+	</div>
+	<div class="twelve columns">
+		<div class="image_carousel fitcarousel">
+		<div id="foo2">
+				<img src="/img/1.jpg" alt="" width="140" height="140"/>
+				<img src="/img/2.jpg" alt="" width="140" height="140"/>
+				<img src="/img/3.jpg" alt="" width="140" height="140"/>
+				<img src="/img/4.jpeg" alt="" width="140" height="140"/>
+				<img src="/img/5.jpg" alt="" width="140" height="140"/>
+				<img src="/img/6.jpeg" alt="" width="140" height="140"/>
+				<img src="/img/7.jpg" alt="" width="140" height="140"/>
+				<img src="/img/8.jpg"alt="" width="140" height="140"/>
+				<!-- 
+				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
+				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
+				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
+				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
+				 -->
+			</div>
+			<div class="clearfix">
+			</div>
+			<a class="prev" id="foo2_prev" href="#"><span>prev</span></a>
+			<a class="next" id="foo2_next" href="#"><span>next</span></a>
+		</div>
+	</div>
+</div>
+<!-- TESTIMONIALS 
+================================================== -->
+<div class="row">
+	<div class="twelve columns">
+		<div id="testimonials">
+			<blockquote>
+				<h4>
+					Reparamos Pantallas de cualquier marca
+					
+					</h4>
+					<p>
+					-Sony
+					</br>
+					-Panasonic
+					</br>
+					-Toshiba
+					</br>
+					-Samsung
+					</p>
+			</blockquote>
+			<blockquote>
+				<p>
+				<h4>
+				Hornos de microondas
+				</h4>
+				</p>
+			</blockquote>
+			<blockquote>
+				<h4>
+				Video Camaras
+				</h4>
+			</blockquote>
+			<blockquote>
+				<h4>
+				Equipos de Sonido
+				</h4>
+				<p>
+				-Harman kardon
+				</br>
+				-Yamaha
+				</p>
+			</blockquote>
+			<blockquote>
+				<h1>
+				-Reparaciones Garantizadas
+				</h1>
+			</blockquote>
+		</div>
+		<!--end testimonials-->
+	</div>
+</div>
+<!-- TWITTER
+================================================== -->
+<!-- 
+<div class="tweetarea">
+	<div class="tweettext">
+		<div class="row">
+			<div class="twelve columns">
+				<div class="tweet">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+<!-- FOOOTER 
+================================================== -->
+<div id="footer">
+	<footer class="row">
+	<p class="back-top floatright">
+		<a href="#top"><span></span></a>
+	</p>
+	<div class="four columns">
+		<h1>Electrónica Unitec</h1>
+		<strong>
+		<p>
+		Nuestra meta es que nuestros cliente queden ¡Totalmente Satisfechos!
+		</p>
+		</strong>
+	</div>
+	<div class="four columns">
+		<h1>GET SOCIAL</h1>
+		<div class="social facebook">
+			
+		</div>
+		<div class="social twitter">
+		
+		</div>
+		<div class="social deviantart">
+		
+		</div>
+		<div class="social flickr">
+		
+		</div>
+		<div class="social dribbble">
+			
+		</div>
+	</div>
+	
+	</footer>
+</div>
+<div class="copyright">
+	<div class="row">
+		<div class="six columns">
+			 &copy;<span class="small"> Copyright 2014 Pagina elaborada por virtualef www.virtualef.com</span>
+		</div>
+		
+	</div>
+</div>
+<!-- JAVASCRIPTS 
+================================================== -->
+<!-- Javascript files placed here for faster loading -->
+<script src="javascripts/foundation.min.js"></script> 
+<script src="javascripts/jquery.carouFredSel-6.0.5-packed.js"></script>
+<script src="javascripts/jquery.cycle.js"></script>
+<script src="javascripts/app.js"></script>
+<script src="javascripts/modernizr.foundation.js"></script>
+<script src="javascripts/slidepanel.js"></script>
+<script src="javascripts/scrolltotop.js"></script>
+<script src="javascripts/hoverIntent.js"></script>
+<script src="javascripts/superfish.js"></script>
+<script src="javascripts/responsivemenu.js"></script>
+<script src="javascripts/jquery.tweet.js"></script>
+<script src="javascripts/twitterusername.js"></script>
+</body>
+</html>
