@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"c05bU6zpvXPOpQakG5gG3IOJh8Y/vjuYCuhq3O3P0-l64aN3OG3L8k8\"",
+ "etag": "\"c05bU6zpvXPOpQakG5gG3IOJh8Y/R4p_TLsUm7C9m0UDnZbIcFJhBA8\"",
  "discoveryVersion": "v1",
  "id": "messageEndpoint:v1",
  "name": "messageEndpoint",
@@ -13,9 +13,9 @@
   "x32": "http://www.google.com/images/icons/product/search-32.gif"
  },
  "protocol": "rest",
- "baseUrl": "https://myapp.appspot.com/_ah/api/messageEndpoint/v1/",
+ "baseUrl": "https://electronica-unitec.appspot.com/_ah/api/messageEndpoint/v1/",
  "basePath": "/_ah/api/messageEndpoint/v1/",
- "rootUrl": "https://myapp.appspot.com/_ah/api/",
+ "rootUrl": "https://electronica-unitec.appspot.com/_ah/api/",
  "servicePath": "messageEndpoint/v1/",
  "batchPath": "batch",
  "parameters": {

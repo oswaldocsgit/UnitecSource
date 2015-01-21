@@ -398,6 +398,12 @@ a.actbutton:hover {
    background: #fff;
    color: #33777d;
    }
-.noslide {text-align:center;}
-.noslide h1 {color:#eee;font-family:BitterRegular;margin-bottom:23px;}
+.noslide {text-align:left;}
+.noslide h1 {
+color: #FDF105;
+font-family: BitterRegular;
+margin-bottom: 23px;
+font-size: 40px;
+margin-left: 120px;
+}
 .noslide h3 {color: #eee;padding: 0 100px; font-weight: lighter;  line-height: 34px;}
